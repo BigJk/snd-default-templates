@@ -1,0 +1,8 @@
+{
+	"name": "Simple Message",
+	"slug": "simple-message",
+	"author": "Sales-n-Dungeons",
+	"description": "Simple message template with a title and a text. The text supports Markdown.",
+	"dataSources": [],
+	"images": {}
+}
