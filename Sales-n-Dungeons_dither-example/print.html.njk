@@ -1,0 +1,25 @@
+<h1>Dither and Monochrome Example</h1>
+
+<h3>Edit this template and take a look at the code!
+To make images printable there are multiple options.
+This example serves to give you a idea of possible approaches.</h3>
+
+<br><br>
+
+Dither <br>
+
+<!--
+    Using Build-In Dithering
+    Modify dither-threshold see different results
+-->
+<img style="width: 60%;" dither="1" dither-threshold="120" src="/proxy/https://images.pexels.com/photos/1762578/pexels-photo-1762578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
+
+<br><br>
+
+CSS Filter <br>
+
+<!--
+    Using CSS Filter
+    Modify the 5% to see different results
+-->
+<img style="width: 60%; filter: brightness(calc(100% + 5%)) grayscale(100%) contrast(1000%);" src="/proxy/https://images.pexels.com/photos/1762578/pexels-photo-1762578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"></img>
